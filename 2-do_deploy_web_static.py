@@ -13,7 +13,7 @@ env.user = "ubuntu"
 
 def do_pack():
     """
-        return the archive path if archive has generated correctly.
+        return the archive path if archive has generated correctly..
     """
 
     local("mkdir -p versions")
@@ -29,7 +29,7 @@ def do_pack():
 
 def do_deploy(archive_path):
     """
-        Distribute archive.
+        Distribute archive..
     """
     if os.path.exists(archive_path):
         archived_file = archive_path[9:]
